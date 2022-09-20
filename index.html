@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left-column">
+           
+            <img class="leaf-background" src="https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80">
+            <div class="banner">
+                <img class="logo" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" alt="">
+                <h3>ODIN</h3>
+                
+            </div>
+            <p class="credit">Photo by <u>Hale West  </u>on  <u>Unsplash</u></p>
+        </div>
+        <div class="right-column">
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your depest dreams Sign up now to get started.</p>
+            <p>You know you want to.</p>
+
+            <form id="Register-Form" class="Register-Form" action="" method="post">
+                <h4>Lets do this!</h4>
+                <div class="row 1">
+                    <div class="input-box  name">
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="first-name" required>
+                    </div>
+                    <div class="input-box  Last-name">
+                        <label for="Last-Name">Last Name</label>
+                        <input type="text" name="Last Name" required>
+                    </div>
+                </div>
+                <div class="row 2">
+                    <div class="input-box  Email">
+                        <label for="Email">Email</label>
+                        <input type="email" name="Email" required>
+                    </div>
+                    <div class="input-box  Phone-Number">
+                        <label for="Phone Number">Phone Number</label>
+                        <input type="number" name="Phone Number" required>
+                    </div>
+                </div>
+                <div class="row 3">
+                     
+                <div class="input-box Password">
+                    <label for="Password">Password</label>
+                    <input id="Password" type="password" name="Password" required>
+                </div>
+                <div class="input-box Confirm-Password">
+                    <label for="Confirm Password">Confirm Password</label>
+                    <input title="CP" id="Confirm-Password" type="password" name="Confirm Password" required>
+                </div>
+                
+            </div>  
+            <p id="error-message" style="text-align:center ;">Passwords not identical</p>            
+            </form>
+            <button onclick="" form="Register-Form" type="submit" class="btn btn-primary">Create Account</button>
+            
+            <p>Already have an account? <a href="#">Log In</a></p>
+        </div>
+       
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
